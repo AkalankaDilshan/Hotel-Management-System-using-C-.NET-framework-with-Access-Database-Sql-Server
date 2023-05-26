@@ -51,7 +51,7 @@ The Event Booking functionality helps in managing and organizing events within t
 
 ### Vehicle Renting 
 
-![Screenshot 2022-11-01 163620](https://github.com/AkalankaDilshan/Hotel-Management-System-using-C-.NET-framework-with-Access-Database-Sql-Server/assets/61039787/b83612bc-f5dc-424b-b765-dbe5f3a51755)
+![Screenshot 2022-11-01 162955](https://github.com/AkalankaDilshan/Hotel-Management-System-using-C-.NET-framework-with-Access-Database-Sql-Server/assets/61039787/21f281af-6502-455e-851e-97877d27129f)
 
 The Vehicle Renting section provides a platform for guests to rent vehicles during their stay. It simplifies the process of arranging transportation for guests, ensuring a convenient and reliable experience.
 
