@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{730F74E6-8723-42F5-A52D-7CC98A66EC54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp.Material, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.Material.6.1.1\lib\net472\FontAwesome.Sharp.Material.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp.Pro, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.Pro.6.1.1\lib\net472\FontAwesome.Sharp.Pro.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPREMIUM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPREMIUM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_MINIS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_MINIS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_mytable.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_mytable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_order.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_order.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_room_d.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_room_d.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_Rooms_deluxe_room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_Rooms_deluxe_room.Designer.cs">
+      <DependentUpon>FormA_Rooms_deluxe_room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_rooms_Mini_suite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_rooms_Mini_suite.Designer.cs">
+      <DependentUpon>FormA_rooms_Mini_suite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_Rooms_Premium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_Rooms_Premium.Designer.cs">
+      <DependentUpon>FormA_Rooms_Premium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_Dashboard.Designer.cs">
+      <DependentUpon>FormA_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_event.Designer.cs">
+      <DependentUpon>FormA_event.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_local_guide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_local_guide.Designer.cs">
+      <DependentUpon>FormA_local_guide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_orders.Designer.cs">
+      <DependentUpon>FormA_orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_rooms.Designer.cs">
+      <DependentUpon>FormA_rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormA_rooms_standardcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormA_rooms_standardcs.Designer.cs">
+      <DependentUpon>FormA_rooms_standardcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_admin.Designer.cs">
+      <DependentUpon>Form_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_singup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_singup.Designer.cs">
+      <DependentUpon>Form_singup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rooms_data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rooms_data.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_event.resx">
+      <DependentUpon>FormA_event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_local_guide.resx">
+      <DependentUpon>FormA_local_guide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_orders.resx">
+      <DependentUpon>FormA_orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_rooms.resx">
+      <DependentUpon>FormA_rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_Rooms_deluxe_room.resx">
+      <DependentUpon>FormA_Rooms_deluxe_room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_rooms_Mini_suite.resx">
+      <DependentUpon>FormA_rooms_Mini_suite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_Rooms_Premium.resx">
+      <DependentUpon>FormA_Rooms_Premium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormA_rooms_standardcs.resx">
+      <DependentUpon>FormA_rooms_standardcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_admin.resx">
+      <DependentUpon>Form_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_singup.resx">
+      <DependentUpon>Form_singup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPREMIUM.xsc">
+      <DependentUpon>DataSetPREMIUM.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPREMIUM.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPREMIUM.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetPREMIUM.xss">
+      <DependentUpon>DataSetPREMIUM.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_MINIS.xsc">
+      <DependentUpon>DataSet_MINIS.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_MINIS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_MINIS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_MINIS.xss">
+      <DependentUpon>DataSet_MINIS.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_mytable.xsc">
+      <DependentUpon>DataSet_mytable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_mytable.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_mytable.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_mytable.xss">
+      <DependentUpon>DataSet_mytable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_order.xsc">
+      <DependentUpon>DataSet_order.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_order.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_order.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_order.xss">
+      <DependentUpon>DataSet_order.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_room_d.xsc">
+      <DependentUpon>DataSet_room_d.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_room_d.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_room_d.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_room_d.xss">
+      <DependentUpon>DataSet_room_d.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Rooms_data.xsc">
+      <DependentUpon>Rooms_data.xsd</DependentUpon>
+    </None>
+    <None Include="Rooms_data.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Rooms_data.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Rooms_data.xss">
+      <DependentUpon>Rooms_data.xsd</DependentUpon>
+    </None>
+    <None Include="webfonts\fa-brands-400.eot" />
+    <None Include="webfonts\fa-brands-400.ttf" />
+    <None Include="webfonts\fa-brands-400.woff" />
+    <None Include="webfonts\fa-brands-400.woff2" />
+    <None Include="webfonts\fa-regular-400.eot" />
+    <None Include="webfonts\fa-regular-400.ttf" />
+    <None Include="webfonts\fa-regular-400.woff" />
+    <None Include="webfonts\fa-regular-400.woff2" />
+    <None Include="webfonts\fa-solid-900.eot" />
+    <None Include="webfonts\fa-solid-900.ttf" />
+    <None Include="webfonts\fa-solid-900.woff" />
+    <None Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\all.css" />
+    <Content Include="Content\all.min.css" />
+    <Content Include="Content\brands.css" />
+    <Content Include="Content\brands.min.css" />
+    <Content Include="Content\fontawesome.css" />
+    <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\regular.css" />
+    <Content Include="Content\regular.min.css" />
+    <Content Include="Content\solid.css" />
+    <Content Include="Content\solid.min.css" />
+    <Content Include="Content\svg-with-js.css" />
+    <Content Include="Content\svg-with-js.min.css" />
+    <Content Include="Content\v4-shims.css" />
+    <Content Include="Content\v4-shims.min.css" />
+    <None Include="Resources\depositphotos_76138439-stock-illustration-cartoon-camping-frame-background.jpg" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\adventure-ella-sri-lanka.jpg" />
+    <None Include="Resources\adventure-ella-sri-lanka31.jpg" />
+    <None Include="Resources\10-fun-games-to-play-in-the-swimming-pool-fb.png" />
+    <None Include="Resources\286891-2121x1414-children-fun-pool-game.jpg" />
+    <None Include="Resources\attractionsBig.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\10-fun-games-to-play-in-the-swimming-pool-fb1.png" />
+    <None Include="Resources\21st-Birthday-party-of-Geethma-4.jpg" />
+    <None Include="Resources\day-out-romantic_800x520.jpg" />
+    <None Include="Resources\large_img-1589-copy.jpg" />
+    <None Include="Resources\45335464-old-nautical-treasure-map-illustration.jpg" />
+    <None Include="Resources\old-map-exploration-background-adventure-44256782.jpg" />
+    <None Include="Resources\vector-background-nature-foliage-leaves-border-frame-with-copy-space-and-white-backdrop-black-and-white-RH963R.jpg" />
+    <None Include="Resources\vector-background-nature-foliage-leaves-border-frame-with-copy-space-and-white-backdrop-modern-green-blue-faded-gradient-RH963B.jpg" />
+    <None Include="Resources\holographic-background-with-blue-pink-and-green-color-free-vector.jpg" />
+    <None Include="Resources\bright-holographic-background-illustration-free-vector.jpg" />
+    <None Include="Resources\icon-title.png" />
+    <None Include="Resources\IMG_6460-HDR-min-1024x683-1.jpg" />
+    <None Include="Resources\IMG_6443-min-1024x683-1.jpg" />
+    <None Include="Resources\room5-1024x683-1.jpg" />
+    <None Include="Resources\IMG_6053-HDR-1024x683-1.jpg" />
+    <None Include="Resources\LOGO.png" />
+    <None Include="Resources\pngegg%286%29.png" />
+    <None Include="Resources\pngegg%286%291.png" />
+    <None Include="Resources\5385082.jpg" />
+    <None Include="Resources\pngwing.com%281%29.png" />
+    <None Include="Resources\HD-wallpaper-soft-green-circle-abstract-kor4-rts-soft-blue-bubbles-circle-cool-green-pattern-soft-green-texture.jpg" />
+    <None Include="Resources\blue-green-texture-oil-paint-background-multi-purpose-use-blue-green-texture-oil-paint-background-148390235.jpg" />
+    <None Include="Resources\5461442.jpg" />
+    <None Include="Resources\blue-green-texture-oil-paint-background-multi-purpose-use-blue-green-texture-oil-paint-background-1483902351.jpg" />
+    <None Include="Resources\54614421.jpg" />
+    <None Include="Resources\blue-gradient-background-thumb24.png" />
+    <None Include="Resources\195946.jpg" />
+    <None Include="Resources\blue-gradient-background-thumb241.png" />
+    <None Include="Resources\662957.png" />
+    <Content Include="Scripts\fontawesome\all.js" />
+    <Content Include="Scripts\fontawesome\all.min.js" />
+    <Content Include="Scripts\fontawesome\brands.js" />
+    <Content Include="Scripts\fontawesome\brands.min.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.min.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.min.js" />
+    <Content Include="Scripts\fontawesome\regular.js" />
+    <Content Include="Scripts\fontawesome\regular.min.js" />
+    <Content Include="Scripts\fontawesome\solid.js" />
+    <Content Include="Scripts\fontawesome\solid.min.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.min.js" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMLSS">
+      <Guid>{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPDXMLib">
+      <Guid>{73F0DD5C-D071-46B6-A8BF-897C84EAAC49}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLauncher">
+      <Guid>{5CB42160-CD7C-4806-9367-1C4A65153F4A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

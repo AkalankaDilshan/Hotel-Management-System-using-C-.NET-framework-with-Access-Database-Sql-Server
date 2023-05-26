@@ -1,0 +1,72 @@
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.MediaPlayer.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMLSS.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPDXMLib.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLauncher.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_event.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_local_guide.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_orders.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_rooms.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_Rooms_deluxe_room.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_rooms_Mini_suite.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_Rooms_Premium.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_rooms_standardcs.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_admin.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_singup.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.Material.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.Pro.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\C#\Project\Hotel_Eden\Hotel Del Luna\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.Material.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.Pro.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.MediaPlayer.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMLSS.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPDXMLib.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLauncher.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_event.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_local_guide.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_orders.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_rooms.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_Rooms_deluxe_room.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_rooms_Mini_suite.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_Rooms_Premium.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormA_rooms_standardcs.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_admin.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_singup.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\C#\Project\New folder\second_try\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
