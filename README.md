@@ -68,6 +68,7 @@ The Local Guide Renting feature allows guests to explore the local area by renti
 
 ## Resources
 Website: https://learn.microsoft.com/en-us/dotnet/
+
          https://github.com/awesome-inc/FontAwesome.Sharp 
          https://www.guru99.com/c-sharp-access-database.html
 
